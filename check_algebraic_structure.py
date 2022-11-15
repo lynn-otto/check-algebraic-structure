@@ -21,12 +21,12 @@ element_names_array = ['e', 'a', 'b']
 number_of_elements = len(element_names_array)
 
 def bijection_row(row):
-    Z3_row = [element_names_dict[x] for x in row]
-    return Z3_row
+    transformed_row = [element_names_dict[x] for x in row]
+    return transformed_row
 
 def bijection_table(table):
-    Z3_table = [bijection_row(row) for row in table]
-    return Z3_table
+    transformed_table = [bijection_row(row) for row in table]
+    return transformed_table
 
 #printing
 def linebreak():

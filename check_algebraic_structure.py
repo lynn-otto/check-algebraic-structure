@@ -210,7 +210,7 @@ if __name__ == "__main__":
     print(f'The multiplication table together with the element {neutral_element} is:')
     print(f'- {print_adjective_truthy(commutativity, "commutative")}')
     print(f'- {print_adjective_truthy(associativity, "assoicative")}')
-    print(f'- {neutral_element} is {print_adjective_truthy(associativity, "an neutral element")}')
+    print(f'- {neutral_element} is {print_adjective_truthy(associativity, "a neutral element")}')
     print(f'- {print_adjective_truthy(inverses, "every element has an inverse")}')
     linebreak()
 
